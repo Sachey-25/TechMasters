@@ -1,0 +1,102 @@
+html elements
+----------------
+An html element is defined by 
+start tag, some content and end tag.
+Syntax:
+------
+<tagname> content will be here </tagname>
+
+html basic elements(tags)
+1. header elements
+2. paragragh elements
+3. empty elements
+
+1. header elements
+>> There are six different types of 
+header tags and they are unique compared
+among themselves.
+<h1> some content </h1>
+<h2> some content </h2>
+<h3> some content </h3>
+<h4> some content </h4>
+<h5> some content </h5>
+<h6> some content </h6>
+
+HTML make up
+<html style tag>
+-- There are two ways of doing
+make up
+--- inline styling
+--- exterline styling
+syntax:
+-------
+<tagname style="property:value">
+
+** Text Color **
+-----------------
+THe CSS property defines the text color for 
+html elements
+syntax:
+<tagname style="property:value">
+
+example:
+<h1 style="color:red">
+
+**Fonts**
+----------
+1. font-family
+2. Text Align 
+
+I want the information to be sent to the center
+of the browser.
+
+Note: There's by default 
+header and footer tags can be used in the
+web page
+
+
+HTML Text formatting
+--------------------
+<b> --> Bold Text
+<i> --> Italic text
+<strong> --> Bold Text
+<small> ---> Smaller Text
+<del> --> Delete text
+<sub> --> subscripted text
+<sup> --> superscripted
+
+** Font Family ** --> differnt style of word/sentense
+
+HTML links
+------------
+html hyperlink 
+-- html links are hyperlinks, whihc helps to open the document related to
+the respective link
+-- Note: when a mouse over alink, the cursor will turn nto little hand.
+SYntax:
+------
+<a href="url"> some text here </a>
+Example:
+---------
+< a href ="https://www.google.co.in"> click here </a>
+
+Different attribute of the html links
+1. target -- where to open the link either it is in same 
+window or in next window.
+in order to open we have 4 differnt ways
+1. _self  2. _blank 3. _parent 4. _ top\
+
+HTML image Links
+------------------
+-- To use image as a link we use <img> tag inside <a> tag
+NOte: to access the image we need the source.
+
+-- Absolute path ---> www.google.com
+-- Relative path ---> /xxx/xxxx/xxxx/xx.com
+
+
+
+
+
+
+
