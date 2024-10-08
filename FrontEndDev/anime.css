@@ -1,0 +1,50 @@
+html,body{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+h1{
+    width: 45%;
+    height: 20%;
+    background-color: lightgreen;
+    animation-name: welcomeanime;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+#box2{
+    width: 30%;
+    height: 30%;
+    background-color: aqua;
+    animation-name: topbottom;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes welcomeanime {
+    0%{
+        left:0;
+        background-color: burlywood;
+        rotate: 0deg;
+    }
+    100%{
+        left: 0;    
+        background-color: cornflowerblue;
+        rotate: 360deg;
+    }
+}
+@keyframes topbottom {
+    from{
+        left: 0;
+        background-color: lightseagreen;
+        top:0;
+    }
+    to{
+        left:70%;
+        background-color: salmon;
+        top:60%;
+    }
+}
