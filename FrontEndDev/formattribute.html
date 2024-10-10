@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form Attributes</title>
+    <link rel="stylesheet" href="formattribute..css">
+ 
+</head>
+<body>
+    <div id="box">
+        <form>
+            <!-- the fieldset element is used to group
+             related data in a form.
+             The legend element defines a caption for the
+             fieldset element.-->
+            <fieldset>
+                <legend>Registration</legend>
+                <label for="fname">Firstname</label><br/>
+                <input type="text" id="fname" name="fname"><br/>
+                <label for="lname">Lastname</label><br/>
+                <input type="text" id="lname" name="lname"><br/>
+                <label for="city">City</label><br/>
+                <input type="text" id="city" name="city"><br/>
+                <p>Address: </p>
+                <textarea name="feedback" rows="5" cols="5">
+                    <!--The rows attribute speciofies the visible
+                    numeber of lines in a text area
+                    The cols attributge speciofies the visible
+                    width of a text area-->
+                </textarea><br/>
+            </fieldset>
+        </form>
+    </div>
+    
+        <form action="" target="_blank">
+            <label for="languages"> Choose a language</label>
+            <select>
+                <option value="select">Select</option>
+                <option value="C" disabled>C lang</option>
+                <option value="R">R lang</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+                <option value="Python">Python</option>
+            </select><br/><br/>
+            <input type="submit" value="Submit">
+        </form>
+    
+        <form action="/tables.html" target="_blank" method="get">
+            <!--The method attribute
+            the methos attribute specifies the http method
+            to be used when submitting the form data.
+            the form-data can be sent as URL variables
+            (with method="get") or as HTTP post trasaction
+            (method="post")-->
+    
+            <label for="fname">Firstname</label><br/>
+            <input type="text" id="fname" name="fname"><br/>
+            <label for="lname">Lastname</label><br/>
+            <input type="text" id="lname" name="lname"><br/>
+            <label for="city">City</label><br/>
+            <input type="text" id="city" name="city"><br/>
+            <p>Address: </p>
+            <textarea name="feedback" rows="5" cols="5">
+                <!--The rows attribute speciofies the visible
+                numeber of lines in a text area
+                The cols attributge speciofies the visible
+                width of a text area-->
+            </textarea><br/>
+            <input type="submit" value="Submit">
+        </form>
+    
+        <form action="/tables.html" target="_blank" method="POST">
+            <!--The method attribute
+            the methos attribute specifies the http method
+            to be used when submitting the form data.
+            the form-data can be sent as URL variables
+            (with method="get") or as HTTP post trasaction
+            (method="post")-->
+    
+            <label for="fname">Firstname</label><br/>
+            <input type="text" id="fname" name="fname"><br/>
+            <label for="lname">Lastname</label><br/>
+            <input type="text" id="lname" name="lname"><br/>
+            <label for="city">City</label><br/>
+            <input type="text" id="city" name="city"><br/>
+            <p>Address: </p>
+            <textarea name="feedback" rows="5" cols="5">
+                <!--The rows attribute speciofies the visible
+                numeber of lines in a text area
+                The cols attributge speciofies the visible
+                width of a text area-->
+            </textarea><br/>
+            <input type="submit" value="Submit">
+        </form>
+ 
+</body>
+</html>
