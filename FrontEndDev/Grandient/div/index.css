@@ -1,0 +1,43 @@
+#box1{
+    display: inline-block;
+    width: 1500px;
+    height: 100px;
+    background: rgb(2,0,36);
+    padding: 8px;
+    margin: 8px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.053) 0%, 
+    rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+#box2{
+    display: inline-block;
+    width: 1500px;
+    height: 100px;
+    background: rgb(2,0,36);
+    padding: 8px;
+    margin: 8px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.082) 0%,
+    rgba(9,9,121,1) 35%,
+    rgba(0,212,255,1) 100%);
+}
+#box3{
+    display: inline-block;
+    width: 1500px;
+    height: 100px;
+    background: rgb(2,0,36);
+    padding: 8px;
+    margin: 8px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.062) 0%,
+    rgba(9,9,121,1) 35%,
+    rgba(0,212,255,1) 100%);
+}
+#box4{
+    display: inline-block;
+    width: 1500px;
+    height: 100px;
+    background: rgb(2,0,36);
+    padding: 8px;
+    margin: 8px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.038) 0%,
+    rgba(9,9,121,1) 35%,
+    rgba(0,212,255,1) 100%);
+}
