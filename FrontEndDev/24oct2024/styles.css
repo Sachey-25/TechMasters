@@ -1,0 +1,9 @@
+div{
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: aquamarine;
+}
+h1.hidden{
+    visibility: inherit;
+}
