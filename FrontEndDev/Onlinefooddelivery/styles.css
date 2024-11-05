@@ -1,0 +1,64 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+    background-color: #f8f8f8;
+}
+header{
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding:0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    padding: 20px;
+    margin:10px;
+    background-color:rgb(255,255,255);
+    border-radius: 5px;
+}
+div{
+    display: inline-block;
+}
+img{
+    width: 120px;
+    height:100px;
+}
+.food-item{
+    border: 1px solid #ddd;
+    padding:10px;
+    margin: 10px 0;
+}
+.food-item h2{
+    margin:0
+}
+.food-item button{
+    background-color: #ff6347;
+    color:rgb(255,255,255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.food-item button:hover{
+    background-color: #e5533d;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6347;
+    color: rgb(255,255,255);
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
